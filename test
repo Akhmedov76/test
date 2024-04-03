@@ -1,0 +1,42 @@
+correct_answer = 0
+wrong_answer = 0
+
+ques = 'The … bowl is empty. It must be hungry?\n a) dog\n b) dog‘s\n c) dogs\n d) dogs’\n Javob: '
+answ1 = input(ques)
+if answ1 == 'a':
+    correct_answer += 1
+else:
+    wrong_answer += 1
+ques = 'It has been shown that chewing gum can seriously damage … teeth.?\n a) children’s\n b) children\n c) children’\n d) childs’\n Javob: '
+answ2 = input(ques)
+if answ2 == 'd':
+    correct_answer += 1
+else:
+    wrong_answer += 1
+ques = 'It is … right to know what the city is going to do about the housing problem.?\n a) peoples’\n b) people\n c) peoples\n d) people’s\n Javob: '
+answ3 = input(ques)
+if answ3 == 'b':
+    correct_answer += 1
+else:
+    wrong_answer += 1
+ques = 'When my rich uncle died, he left half of his fortune to his cat and … half to a distant cousin.?\n a) other\n b) another\n c) the other\n d) others\n Javob: '
+answ4 = input(ques)
+if answ4 == 'c':
+    correct_answer += 1
+else:
+    wrong_answer += 1
+ques = 'In the fifteenth century people knew nothing about … big continent as America.?\n a) such a\n b) so a\n c) so / as\n d) as a\n Javob: '
+answ5 = input(ques)
+if answ5 == 'c':
+    correct_answer += 1
+else:
+    wrong_answer += 1
+
+if wrong_answer == 2:
+    print('5 ball')
+if wrong_answer == 3:
+    print('4 ball')
+if wrong_answer == 4:
+    print('3 ball')
+print(f" Correct Answer {correct_answer} ta")
+print(f" Incorrect Answer {wrong_answer} ta")
